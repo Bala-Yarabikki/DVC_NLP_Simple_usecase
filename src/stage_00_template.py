@@ -4,16 +4,17 @@ import shutil
 from tqdm import tqdm
 import logging
 
-
 logging.basicConfig(
-    filename=os.path.join("logs", 'running_logs.log'), 
-    level=logging.INFO, 
+    filename=os.path.join("logs", 'running_logs.log'),
+    level=logging.INFO,
     format="[%(asctime)s: %(levelname)s: %(module)s]: %(message)s",
     filemode="a"
-    )
+)
+
 
 def main(config_path):
     pass
+
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
