@@ -68,3 +68,50 @@ yaml.scanner.ScannerError: mapping values are not allowed here
 [2021-11-02 23:41:09,001: INFO: common]: directory is created at artifacts\prepared
 [2021-11-02 23:41:11,325: INFO: stage_01_prepare]: >>>>> stage One completed! <<<<<
 
+[2021-11-03 06:40:24,282: INFO: stage_02_featurization]: 
+********************
+[2021-11-03 06:40:24,282: INFO: stage_02_featurization]: >>>>> stage Two started <<<<<
+[2021-11-03 06:40:24,283: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 06:40:24,284: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 06:40:24,285: INFO: common]: created directory at: artifacts\features
+[2021-11-03 06:40:25,140: INFO: common]: The input data frame artifacts\prepared\train.tsv size is (19921, 3)
+
+[2021-11-03 06:40:36,308: INFO: featurize]: The ouput matrix artifacts\features\train.pkl of size (19921, 2502) and data type: float64
+[2021-11-03 06:40:36,633: INFO: common]: The input data frame artifacts\prepared\test.tsv size is (5079, 3)
+
+[2021-11-03 06:40:37,843: INFO: featurize]: The ouput matrix artifacts\features\test.pkl of size (5079, 2502) and data type: float64
+[2021-11-03 06:40:38,073: INFO: stage_02_featurization]: >>>>> stage Two completed!<<<<<
+
+[2021-11-03 08:10:16,077: INFO: stage_01_prepare]: 
+********************
+[2021-11-03 08:10:16,077: INFO: stage_01_prepare]: >>>>> stage One started <<<<<
+[2021-11-03 08:10:16,078: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:10:16,079: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:10:16,079: INFO: common]: created directory at: artifacts\prepared
+[2021-11-03 08:10:17,974: INFO: stage_01_prepare]: >>>>> stage One completed! <<<<<
+
+[2021-11-03 08:10:20,885: INFO: stage_02_featurization]: 
+********************
+[2021-11-03 08:10:20,886: INFO: stage_02_featurization]: >>>>> stage Two started <<<<<
+[2021-11-03 08:10:20,887: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:10:20,888: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:10:20,888: INFO: common]: created directory at: artifacts\features
+[2021-11-03 08:10:21,468: INFO: common]: The input data frame artifacts\prepared\train.tsv size is (17450, 3)
+
+[2021-11-03 08:10:31,933: INFO: featurize]: The ouput matrix artifacts\features\train.pkl of size (17450, 2502) and data type: float64
+[2021-11-03 08:10:32,319: INFO: common]: The input data frame artifacts\prepared\test.tsv size is (7550, 3)
+
+[2021-11-03 08:10:34,097: INFO: featurize]: The ouput matrix artifacts\features\test.pkl of size (7550, 2502) and data type: float64
+[2021-11-03 08:10:34,327: INFO: stage_02_featurization]: >>>>> stage Two completed!<<<<<
+
+[2021-11-03 08:26:54,665: INFO: stage_03_train]: 
+********************
+[2021-11-03 08:26:54,665: INFO: stage_03_train]: >>>>> stage Three started <<<<<
+[2021-11-03 08:26:54,667: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:26:54,668: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:26:54,668: INFO: common]: created directory at: artifacts\model
+[2021-11-03 08:26:54,683: INFO: stage_03_train]: input matrix size: (17450, 2502)
+[2021-11-03 08:26:54,683: INFO: stage_03_train]: X matrix size: (17450, 2500)
+[2021-11-03 08:26:54,683: INFO: stage_03_train]: Y matrix size or labels size: (17450,)
+[2021-11-03 08:26:57,061: INFO: stage_03_train]: >>>>> stage Three completed!<<<<<
+
