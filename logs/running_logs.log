@@ -115,3 +115,45 @@ yaml.scanner.ScannerError: mapping values are not allowed here
 [2021-11-03 08:26:54,683: INFO: stage_03_train]: Y matrix size or labels size: (17450,)
 [2021-11-03 08:26:57,061: INFO: stage_03_train]: >>>>> stage Three completed!<<<<<
 
+[2021-11-03 08:50:33,073: INFO: stage_03_train]: 
+********************
+[2021-11-03 08:50:33,073: INFO: stage_03_train]: >>>>> stage Three started <<<<<
+[2021-11-03 08:50:33,074: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:50:33,075: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:50:33,076: INFO: common]: created directory at: artifacts\model
+[2021-11-03 08:50:33,094: INFO: stage_03_train]: input matrix size: (17450, 2502)
+[2021-11-03 08:50:33,094: INFO: stage_03_train]: X matrix size: (17450, 2500)
+[2021-11-03 08:50:33,094: INFO: stage_03_train]: Y matrix size or labels size: (17450,)
+[2021-11-03 08:50:35,604: INFO: stage_03_train]: >>>>> stage Three completed!<<<<<
+
+[2021-11-03 08:51:38,424: INFO: stage_03_train]: 
+********************
+[2021-11-03 08:51:38,425: INFO: stage_03_train]: >>>>> stage Three started <<<<<
+[2021-11-03 08:51:38,426: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:51:38,427: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:51:38,427: INFO: common]: created directory at: artifacts\model
+[2021-11-03 08:51:38,441: INFO: stage_03_train]: input matrix size: (17450, 2502)
+[2021-11-03 08:51:38,441: INFO: stage_03_train]: X matrix size: (17450, 2500)
+[2021-11-03 08:51:38,441: INFO: stage_03_train]: Y matrix size or labels size: (17450,)
+[2021-11-03 08:51:40,936: INFO: stage_03_train]: >>>>> stage Three completed!<<<<<
+
+[2021-11-03 08:53:27,002: INFO: stage_03_train]: 
+********************
+[2021-11-03 08:53:27,002: INFO: stage_03_train]: >>>>> stage Three started <<<<<
+[2021-11-03 08:53:27,004: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-03 08:53:27,005: INFO: common]: yaml file: params.yaml loaded successfully
+[2021-11-03 08:53:27,005: INFO: common]: created directory at: artifacts\model
+[2021-11-03 08:53:27,019: INFO: stage_03_train]: input matrix size: (17450, 2502)
+[2021-11-03 08:53:27,019: INFO: stage_03_train]: X matrix size: (17450, 2500)
+[2021-11-03 08:53:27,019: INFO: stage_03_train]: Y matrix size or labels size: (17450,)
+[2021-11-03 08:53:29,568: INFO: stage_03_train]: >>>>> stage Three completed!<<<<<
+
+[2021-11-09 22:25:41,556: INFO: stage_04_evaluate]: 
+********************
+[2021-11-09 22:25:41,556: INFO: stage_04_evaluate]: >>>>> stage Four started <<<<<
+[2021-11-09 22:25:41,557: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-09 22:25:42,108: INFO: common]: json file saved at: scores.json
+[2021-11-09 22:25:42,124: INFO: common]: json file saved at: prc.json
+[2021-11-09 22:25:42,138: INFO: common]: json file saved at: roc.json
+[2021-11-09 22:25:42,140: INFO: stage_04_evaluate]: >>>>> stage Four completed!<<<<<
+
