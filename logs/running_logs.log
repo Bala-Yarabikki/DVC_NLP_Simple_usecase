@@ -157,3 +157,12 @@ yaml.scanner.ScannerError: mapping values are not allowed here
 [2021-11-09 22:25:42,138: INFO: common]: json file saved at: roc.json
 [2021-11-09 22:25:42,140: INFO: stage_04_evaluate]: >>>>> stage Four completed!<<<<<
 
+[2021-11-09 22:37:07,426: INFO: stage_04_evaluate]: 
+********************
+[2021-11-09 22:37:07,426: INFO: stage_04_evaluate]: >>>>> stage Four started <<<<<
+[2021-11-09 22:37:07,427: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-11-09 22:37:07,620: INFO: common]: json file saved at: scores.json
+[2021-11-09 22:37:07,635: INFO: common]: json file saved at: prc.json
+[2021-11-09 22:37:07,648: INFO: common]: json file saved at: roc.json
+[2021-11-09 22:37:07,649: INFO: stage_04_evaluate]: >>>>> stage Four completed!<<<<<
+
